@@ -35,7 +35,7 @@ export default function AIAssistant() {
 
   const botResponses: { [key: string]: string } = {
     about: "I am Deep Mistry, the Founder of Deep Mistry Solutions. I build modern digital infrastructure, focusing on high-performance websites, custom apps, business automations, and AI solutions that help companies scale operations and optimize revenue.",
-    projects: "I showcase three flagship products here: 'Nexus ERP v2' (Enterprise management), 'Aetheria AI Marketing' (Autonomous ad manager), and 'Vortex Crypto Portal' (Web3 visualizer). Click the 'Explore My Work' button in the Hero section to view full specifications!",
+    projects: "I showcase three active systems on my portfolio: 'Ecom Platform' (A modern shopping store), 'Studio Photo App' (An asset viewing manager), and 'Group Activate App' (A payment coordinate app). Explore them in the Projects section!",
     services: "My agency specializes in Web Development (Next.js), Mobile App Dev (Flutter/React Native), Custom Software (Node/Python), AI integrations (agents, vector RAG systems), CRM workflow automations, and digital marketing funnels.",
     contact: "You can reach out to me immediately via email at Deep.kamini9687280@gmail.com, or drop a message on WhatsApp at +91 8469159877. You can also view my GitHub (deep8469) or connect on LinkedIn (deep-mistry-9a103121a)!",
   };

@@ -17,21 +17,11 @@ export default function Footer() {
         {/* Left Column: Brand & Copyright */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           {/* Logo Mark */}
-          <div className="flex items-center gap-2 mb-3">
-            <svg
-              className="w-6 h-6 text-neon-blue"
-              viewBox="0 0 100 100"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polygon
-                points="50,5 90,28 90,72 50,95 10,72 10,28"
-                stroke="currentColor"
-                strokeWidth="5"
-                fill="none"
-              />
-              <polygon points="50,25 75,68 25,68" fill="currentColor" opacity="0.8" />
-            </svg>
-            <span className="font-space text-sm font-bold tracking-[0.3em] text-white text-glow-blue uppercase">
+          <div className="flex items-center gap-3.5 mb-3">
+            <div className="w-7 h-7 rounded bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center font-space text-[10px] font-black text-white select-none shadow-sm shadow-orange-500/20">
+              DM
+            </div>
+            <span className="font-space text-sm font-bold tracking-[0.3em] text-white uppercase">
               DEEP MISTRY
             </span>
           </div>
