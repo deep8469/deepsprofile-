@@ -1,6 +1,7 @@
 "use client";
 
 import { Terminal, Shield, ArrowUp } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -34,6 +35,25 @@ export default function Footer() {
             Designed & Engineered by{" "}
             <span className="text-neon-blue font-bold">Deep Mistry</span>.
           </p>
+
+          {/* Legal / Policy Links */}
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-1 font-mono text-[9px] text-white/30 uppercase tracking-wider mt-4">
+            <Link href="/terms" className="hover:text-neon-blue transition duration-300">
+              Terms & Conditions
+            </Link>
+            <span className="text-white/10">•</span>
+            <Link href="/privacy" className="hover:text-neon-blue transition duration-300">
+              Privacy Policy
+            </Link>
+            <span className="text-white/10">•</span>
+            <Link href="/refund-policy" className="hover:text-neon-blue transition duration-300">
+              Refund Policy
+            </Link>
+            <span className="text-white/10">•</span>
+            <Link href="/cancellation-policy" className="hover:text-neon-blue transition duration-300">
+              Cancellation Policy
+            </Link>
+          </div>
         </div>
 
         {/* Middle Column: Quick Links */}
